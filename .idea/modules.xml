@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/new/Human to Others.iml" filepath="$PROJECT_DIR$/new/Human to Others.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Person/Person.iml" filepath="$PROJECT_DIR$/Person/Person.iml" />
-      <module fileurl="file://$PROJECT_DIR$/new/new.iml" filepath="$PROJECT_DIR$/new/new.iml" />
     </modules>
   </component>
 </project>
