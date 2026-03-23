@@ -63,13 +63,7 @@ class Main{
     boolean Validator(Scanner x){
         System.out.print("Are you currently enrolled? (Yes/No)");
         String status = x.nextLine().trim();
-        if (status.equalsIgnoreCase("yes")){
-            return true;
-        }
-        else{
-            return false;
-        }
-
+        return status.equalsIgnoreCase("yes");
     }
 
     public static void main(String[] args){
@@ -83,7 +77,6 @@ class Main{
 
         if (!mainClass.Validator(x)){
             System.out.println(humanClass.display());
-            System.exit(1);
         }
         else {
             studentClass.isCollege(x);
